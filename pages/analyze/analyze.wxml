@@ -1,0 +1,19 @@
+<view>
+  <view style="text-align:center">
+    <text style="font-size: 14px;color:#1E90FF;">检测图片内的人脸，返回人脸的位置和性别、年龄等属性 </text>
+  </view>
+  <view style="margin-top:10px">
+    <image style="width:100%; height: 200px; background-color: #eeeeee;" src="{{src}}"></image>
+  </view>
+  <view style="margin-top: 20px;width: 80%;margin-left: 10%">
+    <button type="primary" bindtap="getImg">选取图片</button>
+  </view>
+  <view style="text-align:left;margin-top:15px">
+    <text style="margin-left:20px;font-size: 14px;color:#1E90FF;margin-left: 3%">选取示例图</text>
+  </view>
+  <view style="margin-top:15px">
+    <block wx:for="{{tempPerson}}" wx:key="unique">
+        <image src="{{item}}" class="img" data-url="{{item}}" bindtap='useTempImg'/>
+    </block>
+  </view>
+</view>

@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="swiper">
+    <swiper indicator-dots="{{indicatorDots}}"
+      autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{imgUrls}}" wx:key="unique">
+        <swiper-item>
+          <image src="{{item}}" width="355" height="150"/>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view style="margin-top: 10px;color: #1E90FF;font-size: 14px">
+    <button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">获取手机号</button>
+  </view>
+  <view style="margin-top: 10px;color: #1E90FF;font-size: 14px">
+    <text> ------ 快速入口 ------ </text>
+  </view>
+  <view>
+    <view wx:for="{{buttons}}" wx:key="unique" class="list" bindtap='{{item.func}}'>
+      <block style="display: inline">
+        <image src="{{item.img}}" class="listitem"/>
+      </block>
+      <block style="display: inline">
+        <text class="listitem1">{{item.title}}</text>
+      </block>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,30 @@
+.imgUrlA {
+  width:40%;
+  height: 200px; 
+  margin-left:5%
+}
+
+.imgUrlB {
+  width:40%;
+  height: 200px; 
+  margin-left:10%
+}
+
+.buttonA {
+  width: 30%;
+  margin-left: 10%;
+  float: left;
+}
+
+.buttonB {
+  width: 30%;
+  float: left;
+  margin-left: 20%;
+}
+
+.button {
+  width: 80%;
+  margin-left: 10%;
+  background-color: #7B68EE;
+  color: white;
+}

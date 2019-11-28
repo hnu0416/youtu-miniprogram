@@ -1,0 +1,31 @@
+<view>
+  <view style="text-align: center">
+    <image style="background-color: #eeeeee;" src="{{analyzeImg}}"></image>
+  </view>
+  <view style="text-align:left;margin-top:15px">
+    <text class="item">识别结果</text>
+  </view>
+  <view style="width: 90%;margin-left: 5%">
+    <view class="view1">
+        <text class="item">性别   {{analyzeResult.gender}}</text>
+    </view>
+    <view class="view">
+        <text class="item">年龄   {{analyzeResult.age}}</text>
+    </view>
+    <view class="view1">
+        <text class="item">微笑值   {{analyzeResult.expression}}</text>
+    </view>
+    <view class="view">
+        <text class="item">魅力   {{analyzeResult.beauty}}</text>
+    </view>
+    <view class="view1">
+        <text class="item">眼镜   {{analyzeResult.glass}}</text>
+    </view>
+    <view class="view">
+        <text class="item">帽子   {{analyzeResult.hat}}</text>
+    </view>
+    <view class="view1">
+        <text class="item">口罩   {{analyzeResult.mask}}</text>
+    </view>
+  </view>
+</view>

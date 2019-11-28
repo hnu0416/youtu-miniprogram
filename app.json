@@ -1,0 +1,34 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/person/person",
+    "pages/analyze/analyze",
+    "pages/analyze/result",
+    "pages/verify/verify",
+    "pages/search/search"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "人脸识别",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "backgroundColor": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./img/home5.png",
+        "selectedIconPath": "./img/home6.png"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "text": "个人中心",
+        "iconPath": "./img/personal5.png",
+        "selectedIconPath": "./img/personal6.png"
+      }
+    ]
+  }
+}

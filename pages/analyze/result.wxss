@@ -1,0 +1,17 @@
+.item {
+  margin-left:20px;
+  font-size: 14px;
+  color:#1E90FF;
+}
+
+.view1 {
+  background-color: #DCDCDC;
+  height: 30px;
+  margin-top: 5px
+}
+
+.view {
+  background-color: #FFF0F5;
+  height: 30px;
+  margin-top: 5px
+}
